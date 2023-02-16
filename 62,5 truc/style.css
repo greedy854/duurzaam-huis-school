@@ -4,14 +4,36 @@
     box-sizing: border-box;
 }
 
+/* 1 rem is standaard 16 pixels maar html kan het veranderen*/
+
+html{
+    /* regel 11 mag je nooit doen*/
+    /*font-size:10px; 1 rem = 10px*/
+    font-size: 62.5%;
+}
+
+
+
 body{
     display: flex;
     justify-content: center;
     min-height: 100vh;
+    align-items: center;
 }
 
 article{
-    width: 25rem;
-    height: 25rem;
+    width: 17rem;
+    height: 17rem;
     background: red;
 }
+
+.vierkant{
+    background: green;
+}
+
+
+
+.vierkant{
+    background: blue;
+}
+
