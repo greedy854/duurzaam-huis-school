@@ -9,7 +9,8 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background: #dfe9f5;
+    background: #525252;
+
 }
 .container{
     display: flex;
@@ -80,12 +81,20 @@ a:hover{
     display: flex;
     width: 100%;
 }
+
+.main h1{
+    margin-left: 1350px;
+    position: absolute;
+    color: #08FF6D;
+}
+
 .main-top i{
     position: absolute;
     right: 0;
     margin: 10px 30px;
-    color: rgb(11, 109, 109);
+    color: #08FF6D;
     cursor: pointer;
+    margin-top: 50px;
 }
 .main-skills{
     display: flex;
@@ -100,6 +109,16 @@ a:hover{
     padding: 10px;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
+
+.main-skills .card a{
+    width: 100%;
+}
+
+.main-skills .card a:hover{
+    background: #C3F9AA;
+    
+}
+
 .main-skills .card h3{
     margin: 10px;
     text-transform: capitalize;
@@ -119,10 +138,15 @@ a:hover{
     background: #08FF6D;
 }
 .main-skills .card:hover{
-    background: none;
+    background: #C3F9AA;
 }
 .main-skills .card i{
     font-size: 22px;
     padding: 10px;
+    color: #08FF6D;
 }
-/* COurses */
+
+.card h3{
+   color: #27DF69;
+}
+
