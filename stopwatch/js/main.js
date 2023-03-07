@@ -27,6 +27,23 @@ startButton.onclick = function(){
    }, 100); /*dit is miliseconden*/
 }
 
+
+resetButton.onclick = function (){
+    running = false;
+    seconds = 0;
+    minutes = 0;
+    minutesTimer.innerText = minutes;
+    secondsTimer.innerText = seconds;
+}
+    
+
+
+
+
+
+
+
+
 stopButton.onclick = function(){
    clearInterval(timer);
    running = false;
