@@ -9,16 +9,23 @@
    <script src="/stopwatch/js/main.js" defer></script>
 </head>
 <body>
-    <article>
+    <article class="card card--slider">
+        <h2 id="js--rangeValue">0</h2>
+        <input id="js--slider" type="range" min="1" max="100" step="10">
+    </article>
+    <article class="card"></article>
+    <article class="card card--stopwatch">
+    
        <div>
-        <span id="js--minutesTimer">0</span>
-        :
-        <span id="js--secondsTimer">0</span>
+        <span class="timerText" id="js--minutesTimer">0</span>
+        <span class="timerText" >:</span>
+        <span class="timerText" id="js--secondsTimer">0</span>
        </div> 
-       <div class="button">
-        <button id="js--start">Start</button>
-        <button id="js--stop"> Stop</button>
-        <button id="js--reset">Reset</button>
+       <section class="buttonWrapper">
+        <button class="button button--Start" id="js--start">Start</button>
+        <button class="button button--Stop" id="js--stop"> Stop</button>
+        <button class="button button--Reset" id="js--reset">Reset</button>
+    </section>
     </div>
     </article>
 </body>

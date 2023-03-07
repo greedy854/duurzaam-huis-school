@@ -32,7 +32,14 @@ stopButton.onclick = function(){
    running = false;
 }
 
-resetButton.onclick = function(){
+
+
+
+const rangeValue = document.getElementById("js--rangeValue");
+const slider = document.getElementById("js--slider");
+rangeValue.innerText = slider.value;
+
+slider.oninput = function(){
+    rangeValue.innerText = slider.value
     
-   
 }
