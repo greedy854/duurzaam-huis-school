@@ -24,7 +24,7 @@ startButton.onclick = function(){
         seconds = 0;
     }
     secondsTimer.innerText = seconds;
-   }, 100); /*dit is miliseconden*/
+   }, 1000); /*dit is miliseconden*/
 }
 
 
@@ -35,28 +35,29 @@ resetButton.onclick = function (){
     minutesTimer.innerText = minutes;
     secondsTimer.innerText = seconds;
 }
-    
-
-
-
-
-
-
-
-
 stopButton.onclick = function(){
    clearInterval(timer);
    running = false;
 }
 
 
-
-
 const rangeValue = document.getElementById("js--rangeValue");
 const slider = document.getElementById("js--slider");
-rangeValue.innerText = slider.value;
+const body = document.getElementById("js--body");
+
+console.log(body);
+slider.value = "2";
+rangeValue.innerText = slider.value + "x";
 
 slider.oninput = function(){
-    rangeValue.innerText = slider.value
-    
+    rangeValue.innerText = slider.value + "x"; 
+    body.style.fontSize = slider.value + "rem";
 }
+
+let data = {
+    "text": "Dreamybull, also known as Dreamybullxxx and by his real name Perrell Laquarius Brown, is a Black maleejaculating with an O-face while moaning and screaming, Oh my God! I'm 'bout to cum!",
+    "img": "/images/funnylol1.webp",
+};
+
+const text = document.getElementById("js--text");
+text.innerText = data.text;

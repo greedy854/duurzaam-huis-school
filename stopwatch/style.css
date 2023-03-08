@@ -9,7 +9,7 @@ html{
 
 body{
     font-size: 2rem;
-    background: #5AF488;
+    background: blanchedalmond;
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -19,12 +19,45 @@ body{
     font-family: sans-serif;
 }
 
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+}
+.logo img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50% ;
+    left: 0;
+    top: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+
 .card{
     width: 40rem;
     height: 40rem;
     box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.2);
     border-radius: 5rem;
     flex-shrink: 0;
+}
+
+.card--buy{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+.card--buy img{
+    height: 70%;
+    width: 100%;
+}
+
+.card--buy p{
+    height: 20%;
+    font-size: 80%;
 }
 
 .card--slider{
@@ -41,9 +74,35 @@ body{
 }
 
 .card--slider > input{
+    -webkit-appearance: none;
+    appearance: none;
     width: 100%;
-    
+    border-radius: 5rem;
+    height: 1.8rem;
+    background: linear-gradient(to right, #403b4a, #e7e9bb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.card--slider > input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #003973, #e5e5be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .card--slider > input::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #003973, #e5e5be);
+  }
 
 .card--stopwatch{
     display: flex;
@@ -63,14 +122,13 @@ body{
     color: white;
 }
 .button--Start{
-    background: #1666DF;
-    ;
+    background: linear-gradient(to right, #00467f, #a5cc82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .button--Stop{
-    background: #F41E1E;
+    background: linear-gradient(to right, #b92b27, #1565c0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
 .button--Reset{
-    background: #110303;
+    background: linear-gradient(to right, #dd3e54, #6be585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
