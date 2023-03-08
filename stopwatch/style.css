@@ -9,7 +9,7 @@ html{
 
 body{
     font-size: 2rem;
-    background: blanchedalmond;
+    background: linear-gradient(to right, #bbd2c5, #536976, #292e49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -120,6 +120,7 @@ body{
     font-size: 2rem;
     border-radius: 0.6rem;
     color: white;
+    cursor: pointer;
 }
 .button--Start{
     background: linear-gradient(to right, #00467f, #a5cc82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */

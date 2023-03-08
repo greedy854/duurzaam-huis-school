@@ -55,7 +55,7 @@ slider.oninput = function(){
 }
 
 let data = {
-    "text": "Dreamybull, also known as Dreamybullxxx and by his real name Perrell Laquarius Brown, is a Black maleejaculating with an O-face while moaning and screaming, Oh my God! I'm 'bout to cum!",
+    "text": "Ronald (Ronnie) Dean Coleman (Monroe, 13 mei 1964) is een Amerikaans voormalig professioneel bodybuilder. Hij won acht keer de titel Mr. Olympia. Hij wordt door velen gezien als een van de beste bodybuilders aller tijden.",
     "img": "/images/funnylol1.webp",
 };
 
