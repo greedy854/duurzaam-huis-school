@@ -45,6 +45,7 @@ const rangeValue = document.getElementById("js--rangeValue");
 const slider = document.getElementById("js--slider");
 const body = document.getElementById("js--body");
 
+
 console.log(body);
 slider.value = "2";
 rangeValue.innerText = slider.value + "x";
@@ -62,3 +63,5 @@ let data = {
 const text = document.getElementById("js--text");
 text.innerText = data.text;
 
+const img = document.getElementById("js--img")
+img.setAttribute("src", "/images/ronnie.png");
