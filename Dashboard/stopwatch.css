@@ -9,7 +9,7 @@ html{
 
 body{
     font-size: 2rem;
-    background: linear-gradient(to right, #348f50, #56b4d3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
     display: flex;
     gap: 2rem;
     justify-content: center;
