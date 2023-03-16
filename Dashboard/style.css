@@ -116,8 +116,8 @@ a:hover{
 }
 
 .main-skills .card a:hover{
-    background: linear-gradient(to right, #52c234, #061700); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: linear-gradient(to right, #b3ffab, #12fff7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
     
 }
 
@@ -140,9 +140,14 @@ a:hover{
     background: #08FF6D;
 }
 .main-skills .card:hover{
-    background: linear-gradient(to right, #52c234, #061700); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: linear-gradient(to right, #b3ffab, #12fff7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
 }
+
+.main-skills .card button h3{
+    color: white;
+}
+
 .main-skills .card i{
     font-size: 22px;
     padding: 10px;
