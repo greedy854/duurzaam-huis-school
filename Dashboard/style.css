@@ -9,7 +9,7 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background: #000000
+    background: black;
 }
 .container{
     display: flex;
@@ -21,7 +21,7 @@ nav{
     bottom: 0;
     height: 100vh;
     left: 0;
-    background: #fff;
+    background: #434343;
     width: 280px;
     overflow: hidden;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
@@ -44,7 +44,7 @@ nav{
 }
 a{
     position: relative;
-    color: #434343;
+    color: #fff;
     font-size: 14px;
     display: table;
     width: 280px;
@@ -67,7 +67,7 @@ nav span{
     font-size: 18px
 }
 a:hover{
-    background: #eee;
+    background: gray;
 }
 .logout{
     position: absolute;
@@ -171,14 +171,14 @@ a:hover{
 }
 .container2 {
    margin-top: -105px;
-   margin-left: 1627px;
+   margin-left: 1660px;
    cursor: pointer;
   }
   #insta,
   #twitter,
   #github,
   #trello {
-    font-size: 4rem;
+    font-size: 2.8rem;
     background-color: #18191f;
     color: #fff;
     box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
